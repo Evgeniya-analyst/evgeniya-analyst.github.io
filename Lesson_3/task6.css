@@ -1,0 +1,43 @@
+.red, .green, .blue {
+    padding:3px;
+    border-radius:8px;
+    color: #ffffff;
+    font-family: 'Open sans';
+    font-size:13px;
+    display: inline-block;
+}
+.red {
+    background-color: #FF0000;
+}
+.green {
+    background-color: #006600;
+}
+.blue {
+    background-color: #000099;
+}
+#red,#green,#blue {
+    display:none
+}
+[for="red"], [for="green"], [for="blue"] {
+    text-decoration: underline;
+    font-family: 'Open sans';
+    font-size:13px;
+}
+[for="red"] {
+    color:#FF0000;
+}
+[for="green"] {
+    color: #006600;
+}
+[for="blue"] {
+    color:#000099;
+}
+
+#red:checked ~ .red {display: none}
+#red:checked ~ [for="red"] {color:#FFAD99;}
+
+#green:checked ~ .green {display: none}
+#green:checked ~ [for="green"] {color:#99C299;}
+
+#blue:checked ~ .blue {display: none}
+#blue:checked ~ [for="blue"] {color:#B8C6F1;}

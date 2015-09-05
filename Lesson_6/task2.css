@@ -1,0 +1,77 @@
+body {
+    margin:0;
+    padding:0;
+}
+.testimonials {
+    width:1400px;
+   height:315px;
+    position: relative;
+    background-image: url(img/bg.png);
+    background-repeat: repeat-y;
+    margin:200px auto;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.testimonials h1 {
+    position: absolute;
+    margin-top:36px;
+    left:512px;
+    color:#3170a8;
+    font-size:40px;
+    text-transform: uppercase;
+}
+.testimonials h1 span {
+    color:#ee8129
+}
+.comment_1 {
+    width:525px;
+     position: relative;
+     display: inline-block;
+     margin:138px 22px 0 168px;
+ }
+.comment_2 {
+    width:525px;
+    position: relative;
+    display: inline-block;
+    margin:138px 22px 0 10px;
+}
+.photo {
+    display: inline-block;
+    position: absolute;
+    height:100px;
+    width:100px;
+    left: 0;
+    top: 0;
+    float: left;
+}
+.customer {
+    display:inline-block;
+    position: absolute;
+    width:365px;
+    margin-left: 126px;
+    background-color: #fff;
+    font-size:13px;
+    height:100px;
+}
+.name {
+    color:#3070a8;
+    margin:13px 21px 10px 17px;
+    font-style:italic;
+    font-weight: bold;
+}
+.name span {
+    float:right;
+}
+.description {
+    color:#666;
+    text-align:left;
+    word-spacing: 2.0px;
+    font-weight:500;
+    margin:10px 38px 19px 17px ;
+}
+.line_hr {
+    width:387px;
+    height:1px;
+    margin-left:17px;
+    border-bottom:1px dashed #b3b3b3;
+}
